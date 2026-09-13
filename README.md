@@ -1,32 +1,34 @@
-# React + TypeScript + Vite
+DevStack
+DevStack is a simple website where users can explore different technologies and build their own technology stack. It is made to keep the interface clean, simple and easy to use.
+Technologies I Used
+React + Vite + React toastfy
+TypeScript
+Tailwind CSS, Daisyui
+HTML
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Features:
+Users can explore different technologies from different categories.
+Users can select technologies and build their own stack.
+Toast messages are shown when users add or remove a technology.
 
-Currently, two official plugins are available:
+1. What is JSX?
+JSX lets us write HTML-like code inside JavaScript. It makes React code easier to write.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+2. Props vs State
+Props pass data from parent to child. State stores data inside a component.
 
-## React Compiler
+3. What is useState?
+useState stores data and updates the UI. I used it to manage my selected technologies.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4. What is useEffect?
+useEffect runs code after rendering. It can be used to load data.
 
-## Expanding the Oxlint configuration
+5. Why use key in .map()?
+It helps React identify each item in a list.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+6. What is conditional rendering?
+Showing something based on a condition. I used it for the empty stack message.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+7. Parent to child and child to parent
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+The parent sends data using props. The child can send data back using a function passed through props.
