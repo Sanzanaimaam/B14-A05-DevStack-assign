@@ -49,6 +49,7 @@
     "difficulty": "Intermediate",
     "badge": "Enterprise"
   },
+  
   {
     "id": "typescript",
     "name": "TypeScript",
@@ -59,6 +60,7 @@
     "difficulty": "Intermediate",
     "badge": "Popular"
   },
+
   {
     "id": "javascript",
     "name": "JavaScript",
