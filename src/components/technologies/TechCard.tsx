@@ -64,7 +64,6 @@ const TechCard = ({
           <span className="px-2 py-0.5 bg-gray-100 rounded">
             Beginner-Friendly
           </span>
-
           <span className="text-amber-500 font-medium">
             ★{eachTech.rating}
           </span>
