@@ -37,9 +37,9 @@ const Footer = () => {
               Product
             </h3>
             <ul className="mt-4 space-y-2">
-              <li className="text-[13px] leading-[18px] text-gray-500">Home</li>
-              <li className="text-[13px] leading-[18px] text-gray-500">Technologies</li>
-              <li className="text-[13px] leading-[18px] text-gray-500">Projects</li>
+              <li className="text-[13px] leading-4.5 text-gray-500">Home</li>
+              <li className="text-[13px] leading-4.5 text-gray-500">Technologies</li>
+              <li className="text-[13px] leading-4.5 text-gray-500">Projects</li>
             </ul>
           </div>
 
@@ -48,8 +48,8 @@ const Footer = () => {
               Company
             </h3>
             <ul className="mt-4 space-y-2">
-              <li className="text-[13px] leading-[18px] text-gray-500">About</li>
-              <li className="text-[13px] leading-[18px] text-gray-500">Contact</li>
+              <li className="text-[13px] leading-4.5 text-gray-500">About</li>
+              <li className="text-[13px] leading-4.5 text-gray-500">Contact</li>
               <li className="text-[13px] leading-4.5 text-gray-500">Careers</li>
             </ul>
           </div>
@@ -59,8 +59,8 @@ const Footer = () => {
               Legal
             </h3>
             <ul className="mt-4 space-y-2">
-              <li className="text-[13px] leading-[18px] text-gray-500">Privacy Policy</li>
-              <li className="text-[13px] leading-[18px] text-gray-500">Terms of Service</li>
+              <li className="text-[13px] leading-4.5 text-gray-500">Privacy Policy</li>
+              <li className="text-[13px] leading-4.5 text-gray-500">Terms of Service</li>
             </ul>
           </div>
         </div>
