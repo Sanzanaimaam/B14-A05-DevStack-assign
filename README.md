@@ -1,10 +1,10 @@
 DevStack.........
 DevStack is a simple website where users can explore different technologies and build their own technology stack. It is made to keep the interface clean, simple and easy to use.
 Technologies I Used
-React + Vite + React toastfy
-TypeScript
-Tailwind CSS, Daisyui
-HTML
+React + Vite + React toastfy,
+TypeScript,
+Tailwind CSS, Daisyui,
+HTML,
 
 Features:
 Users can explore different technologies from different categories.
