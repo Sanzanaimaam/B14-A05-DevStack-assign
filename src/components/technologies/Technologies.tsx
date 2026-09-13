@@ -11,7 +11,6 @@ const Technologies = ({ technologiesPromise }: TechProps) => {
 
   const tech = use(technologiesPromise);
   const [myStack, setMyStack] = useState<Itechnology[]>([]);
-
   return (
     <div className="max-w-7xl mx-auto">
 
@@ -50,5 +49,4 @@ const Technologies = ({ technologiesPromise }: TechProps) => {
     </div>
   );
 };
-
 export default Technologies;
