@@ -1,9 +1,10 @@
 import { Suspense } from "react";
-import Banner from "./components/Banner";
+
 import Nav from "./components/Nav";
 import Technologies from "./components/technologies/Technologies";
 import type { Itechnology } from "./types/techType";
 import Footer from "./assets/Footer";
+import Banner from "./components/Banner";
 
 const getTechnologiesFetch = async (): Promise<Itechnology[]> => {
   const res = await fetch("/data.json");
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
       <Nav />
-      <Banner />
+      <Banner></Banner>
       <Suspense fallback={<h2>Loading</h2>}>
         <Technologies technologiesPromise={technologiesPromise} />
       </Suspense>
